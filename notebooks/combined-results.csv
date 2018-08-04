@@ -1,0 +1,33 @@
+Problem,Search,# Actions,Expansions,Goal Tests,New Nodes,Plan Length,Seconds
+Air Cargo Problem 1,breadth_first_search,20,43,56,178,6,0.026771379779325297
+Air Cargo Problem 1,depth_first_graph_search,20,21,22,84,20,0.006441252791403482
+Air Cargo Problem 1,uniform_cost_search,20,60,62,240,6,0.020788176332424642
+Air Cargo Problem 1,greedy_best_first_graph_search with h_unmet_goals,20,7,9,29,6,0.002885816655435816
+Air Cargo Problem 1,greedy_best_first_graph_search with h_pg_levelsum,20,6,8,28,6,0.41799453373291884
+Air Cargo Problem 1,greedy_best_first_graph_search with h_pg_maxlevel,20,6,8,24,6,0.11088355567591546
+Air Cargo Problem 1,greedy_best_first_graph_search with h_pg_setlevel,20,6,8,28,6,0.4171496636563764
+Air Cargo Problem 1,astar_search with h_unmet_goals,20,50,52,206,6,0.012442792316760043
+Air Cargo Problem 1,astar_search with h_pg_levelsum,20,28,30,122,6,0.18081982722477474
+Air Cargo Problem 1,astar_search with h_pg_maxlevel,20,43,45,180,6,0.17051036711297374
+Air Cargo Problem 1,astar_search with h_pg_setlevel,20,33,35,138,6,0.3858697242782727
+Air Cargo Problem 2,breadth_first_search,72,3343,4609,30503,9,0.30974608410124493
+Air Cargo Problem 2,depth_first_graph_search,72,624,625,5602,619,0.4998517245963332
+Air Cargo Problem 2,uniform_cost_search,72,5154,5156,46618,9,0.6139398625993016
+Air Cargo Problem 2,greedy_best_first_graph_search with h_unmet_goals,72,17,19,170,9,0.020685212199557323
+Air Cargo Problem 2,greedy_best_first_graph_search with h_pg_levelsum,72,9,11,86,9,0.4697213162906535
+Air Cargo Problem 2,greedy_best_first_graph_search with h_pg_maxlevel,72,27,29,249,9,0.8836293728461722
+Air Cargo Problem 2,greedy_best_first_graph_search with h_pg_setlevel,72,9,11,84,9,2.72695710309707
+Air Cargo Problem 2,astar_search with h_unmet_goals,72,2467,2469,22522,9,0.6298982453430773
+Air Cargo Problem 2,astar_search with h_pg_levelsum,72,357,359,3426,9,11.76328757423908
+Air Cargo Problem 2,astar_search with h_pg_maxlevel,72,2887,2889,26594,9,73.75936612176778
+Air Cargo Problem 2,astar_search with h_pg_setlevel,72,1037,1039,9605,9,356.6086357992
+Air Cargo Problem 3,depth_first_graph_search,88,408,409,3364,392,0.517219164
+Air Cargo Problem 3,greedy_best_first_graph_search with h_pg_levelsum,88,14,16,126,14,2.765224146
+Air Cargo Problem 3,greedy_best_first_graph_search with h_pg_setlevel,88,35,37,345,17,24.19188882
+Air Cargo Problem 3,astar_search with h_pg_levelsum,88,369,371,3403,12,26.06331624
+Air Cargo Problem 3,astar_search with h_pg_setlevel,88,3423,3425,31596,12,2878.889097
+Air Cargo Problem 4,depth_first_graph_search,104,25174,25175,228849,24132,1053.661988
+Air Cargo Problem 4,greedy_best_first_graph_search with h_pg_levelsum,104,17,19,165,17,2.288634911
+Air Cargo Problem 4,greedy_best_first_graph_search with h_pg_setlevel,104,107,109,1164,23,112.1626893
+Air Cargo Problem 4,astar_search with h_pg_levelsum,104,1208,1210,12210,15,158.6713163
+Air Cargo Problem 4,astar_search with h_pg_setlevel,104,22606,22608,224229,14,20378.17867
